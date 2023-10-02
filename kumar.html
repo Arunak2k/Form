@@ -1,0 +1,171 @@
+
+<html>
+<head>
+
+	<title>Arun</title>
+	
+<style>
+
+body
+{
+	background-image: url(image3.jpg);
+}
+
+
+
+
+.ac{
+	background-color: white;
+	color: darkred;
+	height: 530px;
+	margin-top: 55px;
+	margin-left: 40%;
+	border: 1px solid;
+	width: 25%;
+	padding-left: 58px;
+	border-radius: 15px;
+}
+button{
+	margin-left: 70px;
+	box-shadow: 0 0 5px red,
+	0 0 25px red;
+
+}
+
+#logo{
+	height: 75px;
+	width: 75px;
+	position: relative;
+	left: 85px;
+	border-radius: 20px;
+
+}
+
+#emaill{
+position: relative;
+bottom: 45px;
+margin-left: 235px;
+}
+	
+</style>
+
+</head>
+<body>
+	
+
+	<div class="ac">
+
+<h1> REGISTER FORM</h1>
+<img  id="logo" src="arun.jpg" title="ARUN"> <br><br>
+<tar
+
+<label> Name</label>
+<input id="name"  type="name" > <br><br>
+<label>Place</label> 
+<input id="place" type="place" > <br><br>
+<label>Date Of Birth</label>
+<input id="date" type="Date" ><br><br>
+<label>Email</label>
+<input id="email" type="Email" name=""><br> <br> 
+<label>ADDRESS</label>
+<input type="ADDRESS" name="address"> <br><br>
+
+<label>GENDER</label>  
+<select>
+	<option>
+		MALE
+	</option>
+	<option>
+		FAMALE
+	</option>
+	<option> OTHERS</option>
+</select> <br> <br> <br>
+
+<label>QUALIFICATION</label>
+<select>
+	<option>
+		10th
+	</option>
+<option>
+	12th
+</option>
+
+<option>college</option>
+<option>others</option>
+</select> <br> <br> <br>
+
+
+
+<button onclick="run()">submit</button> <br><br> 
+
+<div id="emaill">
+<p><a href="mailto:arunak2k03@gmail.com">send email</a></p>
+<div>
+
+</div>
+
+
+
+
+<script type="text/javascript">
+function run() {
+	
+
+	const a = document.getElementById("name").value; 
+    const b = a.length;
+
+      const c= document.getElementById("place").value;
+      const d= c.length;
+
+const e = document.getElementById("date").value;
+    const f= e.length;
+
+const g = document.getElementById("email").value;
+    const h = g.length;
+
+    if(b<=0 )
+    {
+    	alert(" PLEASE ENTER THE NAME");
+    	return;
+    }
+    if (d<=0) 
+    {
+    	alert(" PLEASE ENTER THE PLACE");
+    	return;
+    }
+    
+
+
+if(f<=0 )
+    {
+    	alert(" PLEASE ENTER THE DOB");
+    	return;
+    }
+    if (h<=0) 
+    {
+    	alert(" PLEASE ENTER THE EMAIL ID");
+    	return;
+    }
+    document.write("Submitted");
+
+
+
+    
+     
+  }
+	
+
+
+
+
+
+	
+    
+    	
+
+</script>
+
+</body>
+
+</htmtl>
+
